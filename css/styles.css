@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Titulo de la pagina */
+
+.titulo1{
+    text-align: center;
+    background-color: #220849;
+    color: white;
+}
+/* barra de navegacion */
+.colorbarra{
+    background-color: #530198;
+    background-image: linear-gradient(160deg, #530198 0%, #e4e7e9 100%);
+        
+}
+.buttonnav{
+    background: none;
+    border: none;
+}
+.buttonnav:hover{
+    background-color: #6e7173;
+    background-image: linear-gradient(160deg, #6e7173 0%, #f3f9f9 100%);
+    color: white;
+    border-radius: 20%;
+}
+
+/* Estilos para seccion 1 */
+
+.seccion1{
+    background: #F1EAF9;
+}
+.imagen1{
+    width: 35%;
+    height: 325px;   
+    padding: 30px;
+    border-radius: 15%;
+}
+.texto1{
+    width: 27%;
+    margin: 30px;
+    padding: 15px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+.article1{
+    padding: 30px;
+    background-color: #220849;
+    border-radius: 20%;
+}
+.article h1{
+    border-bottom: 1px solid black;
+}
+.imagen1,.texto1{
+    display: inline-block;
+}
+
+/* Estilos para seccion 2 */
+.titulo2{
+    text-align: center;
+    color: black;
+}
+
+.seccion2{
+    background: #F1EAF9;
+}
+.texto2{
+    width: 27%;
+    margin: 30px;
+    padding: 15px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+.article2{
+    margin-left: 0px;
+    padding: 30px;
+    background-color: #220849;
+    border-radius: 20%;
+}
+.article h2{
+    border-bottom: 1px solid black;
+}
+.texto2{
+    display: inline-block;
+}
+.boton{
+    text-align: center;
+    background-color: #D9E7F2;
+    padding: 6px;
+    border-radius: 20%;
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+.boton:hover{
+    background-color: #6e7173;
+    background-image: linear-gradient(160deg, #6e7173 0%, #f3f9f9 100%);
+    color: white;
+    border-radius: 20%;
+}
+
+/* Estilos para seccion 3 */
+
+.seccion3{
+    background: #F1EAF9;
+}
+.lista1{
+    margin-left: 0px;
+    width: 20%;
+    height: 325px;   
+    padding: 25px;
+    border-radius: 10%;
+    text-align: center;
+}
+.texto3{
+    width: 27%;
+    margin: 30px;
+    padding: 25px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+.tabla1{
+    margin-left: 0px;
+    width: 30%;
+    height: 325px;   
+    padding: 25px;
+    border-radius: 20%;
+    text-align: center;
+}
+.article3{
+    margin-left: 0px;
+    padding: 30px;
+    background-color: #220849;
+    border-radius: 20%;
+}
+.article h3{
+    border-bottom: 1px solid black;
+}
+.lista1,.texto3,.tabla1{
+    display: inline-block;
+}
+
+
+/* Estilos para seccion 4 */
+
+.seccion4{
+    background: #F1EAF9;
+}
+.video1{
+    width: 38%;
+    height: 325px;   
+    padding: 25px;
+    margin-left: 100px;
+    border-radius: 10%;
+}
+.texto4{
+    width: 27%;
+    margin: 30px;
+    padding: 25px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+.article4{
+    margin-left: 50px;
+    padding: 30px;
+    background-color: #220849;
+    border-radius: 20%;
+}
+.article h3{
+    border-bottom: 1px solid black;
+}
+.video1,.texto4{
+    display: inline-block;
+}
+
+/* Formato para el pie de Pagina */
+
+.seccion7{
+    background: #3A363D;
+}
+.article7{
+    padding: 30px;
+    background-color: #3A363D;
+    border-radius: 20%;
+}
+.article h1{
+    border-bottom: 1px solid black;
+}    
+.texto7{
+    width: 20%;
+    margin: 20px;
+    padding: 30px;
+    margin-right: 250px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+.logos1{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 100%;
+}
+.logos2{
+    width: 20px;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.article8{
+    padding: 30px;
+    background-color: #3A363D;
+    border-radius: 20%;
+}
+.article h1{
+    border-bottom: 1px solid black;
+}    
+.texto8{
+    width: 20%;
+    margin: 20px;
+    padding: 30px;
+    margin-left: 350px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+.texto7,.logos2,.texto8{
+    display: inline-block;
+}
+
+
+/* Formato para la hoja numero 2 */
+
+.seccion5{
+    background: #F1EAF9;
+}
+.imagen2{
+    margin-left: 50px;
+    width: 28%;
+    height: 325px;   
+    padding: 25px;
+    border-radius: 15%;
+}
+.imagen3{
+    margin-left: 50px;
+    width: 28%;
+    height: 325px;   
+    padding: 25px;
+    border-radius: 15%;
+}
+.texto5{
+    width: 27%;
+    margin: 30px;
+    padding: 25px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+.article5{
+    margin-left: 50px;
+    padding: 30px;
+    background-color: #220849;
+    border-radius: 20%;
+}
+.article h1{
+    border-bottom: 1px solid black;
+}
+.imagen2,.imagen3,.texto5{
+    display: inline-block;
+}
+
+/* Formato para la hoja numero 2 formulario */
+.seccion9{
+    background: #F1EAF9;
+}
+
+/* Formato para la hoja numero 3 */
+.seccion6{
+    background: #F1EAF9;
+}
+.imagen4{
+    width: 23%;
+    height: 315px;   
+    padding: 30px;
+    border-radius: 15%;
+}
+.imagen5{
+    width: 23%;
+    height: 315px;   
+    padding: 30px;
+    border-radius: 15%;
+}
+.texto6{
+    width: 20%;
+    margin: 30px;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+}
+.article6{
+    padding: 30px;
+    background-color: #220849;
+    border-radius: 20%;
+}
+.article h1{
+    border-bottom: 1px solid black;
+}
+.imagen4,.texto5,.texto6,.imagen5{
+    display: inline-block;}
+
+/* Formato para la hoja numero 3 seccion 2*/
+.cartas1{
+    margin-left: 0PX;
+    text-align: center;
+
+}
+.cartas2{
+    margin-left: 270px;
+    text-align: center;
+
+}
+.cartas1,.cartas2{
+    display: inline-block;
+}
